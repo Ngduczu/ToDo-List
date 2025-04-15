@@ -24,6 +24,9 @@ function createTaskItems(text, isComplete) {
     const button2 = document.createElement("button");
     button.className = "btn btn-sm btn-outline-light ml-2";
     button2.className = "btn btn-sm btn-outline-light ml-2";
+    button.id = "checkbox";
+    button2.id = "deletebox";
+
     if (!isComplete) {
         button.innerHTML = `<i class="fa fa-check"></i>`;
         button.title = "Đánh dấu hoàn thành";
