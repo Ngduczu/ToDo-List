@@ -1,0 +1,52 @@
+:root{
+    --color-bar: #333;
+}
+hr {
+    border: none;
+    height: 1px;
+    background-color: bisque;
+    margin: 20px 0;
+}
+body
+{
+    display: flex;
+    flex-direction: column;
+    font-family: "Winky Rough", cursive;
+    font-weight: 400;
+    background-color: #1e1e1e;
+    text-align: center;
+    align-items: center;
+    color: #FFFFFF;
+
+}
+.title{
+    padding: 30px;
+}
+
+.add-new-task{
+    display: flex;
+    width: 500px;
+    background-color: var(--color-bar);
+    padding: 16px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+}
+.add-new-task:hover{
+    background-color: var(--color-bar);
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+}
+.add-new-task button{
+    background-color: var(--color-bar);
+    border: none;
+}
+.add-new-task input{
+    background-color: var(--color-bar);
+    border: none;
+    color: white;
+    font-size: 25px;
+    width: 100%;
+}
+.add-new-task input:focus{
+    outline: none;
+}
