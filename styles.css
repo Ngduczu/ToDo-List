@@ -11,8 +11,7 @@ body
 {
     display: flex;
     flex-direction: column;
-    font-family: "Winky Rough", cursive;
-    font-weight: 400;
+    font-family: Lobster, cursive;
     background-color: #1e1e1e;
     text-align: center;
     align-items: center;
@@ -49,4 +48,36 @@ body
 }
 .add-new-task input:focus{
     outline: none;
+}
+.task-item {
+    font-size: 25px;
+    display: flex;
+    width: 500px;
+    justify-content: center;
+    background-color: var(--color-bar);
+    padding: 16px;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    margin-right: 30px;
+}
+.task-item:hover {
+    border: 1px solid white;
+}
+.task-item button {
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.task-item i {
+    pointer-events: none;
+}
+.task-item p
+{
+ width: 100%;
+}
+p{
+    text-align: left;
+    margin:  0;
+    padding-left:  10px
 }
